@@ -1,0 +1,38 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../../assets/banner-bg.jpg') no-repeat center center/cover; 
+    color: #fff;
+    padding: 2rem;
+    gap: 1rem;
+    height: 500px;
+  }
+  
+  .banner-content {
+    flex: 1;
+  }
+  
+  .banner-content h1 {
+    background-color: #6BD1FF;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+  }
+  
+  .banner-content h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .banner-content p {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  .banner-video iframe {
+    width: 560px;
+    height: 315px;
+    border: none;
+  }
